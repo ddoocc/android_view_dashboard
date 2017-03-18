@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="DashboardView">
+        <attr name="markCount" format="integer"/>
+        <attr name="value" format="float"/>
+        <attr name="range" format="float"/>
+        <attr name="sweepAngle" format="float"/>
+        <attr name="unitText" format="string"/>
+        <attr name="backgroundColor" format="color"/>
+        <attr name="themeColor" format="color"/>
+        <attr name="colorProgressed" format="color"/>
+        <attr name="valueFontPath" format="string"/>
+        <attr name="colorNotProgressed" format="color"/>
+        <attr name="present" format="enum">
+            <enum name="showPointerOnly" value="0"/>
+            <enum name="showValueOnly" value="1"/>
+            <enum name="showPointerAndValue" value="2"/>
+        </attr>
+        <attr name="upperText" format="string"/>
+        <attr name="upperTextSize" format="dimension"/>
+        <attr name="lowerTextAsValue" format="boolean"/>
+        <attr name="lowerText" format="string"/>
+        <attr name="lowerTextSize" format="dimension"/>
+
+
+    </declare-styleable>
+</resources>
